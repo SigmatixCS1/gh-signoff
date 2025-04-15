@@ -1,0 +1,30 @@
+{
+  "name": "gh-signoff",
+  "version": "1.0.0",
+  "description": "A GitHub CLI extension for local CI to sign off on tests.",
+  "main": "src/main.ts",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/main.js",
+    "test": "echo \"No tests specified\" && exit 0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/gh-signoff.git"
+  },
+  "keywords": [
+    "github",
+    "cli",
+    "extension",
+    "ci",
+    "signoff"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "commander": "^8.0.0"
+  },
+  "devDependencies": {
+    "typescript": "^4.0.0"
+  }
+}
