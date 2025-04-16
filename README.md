@@ -16,7 +16,6 @@ Run your test suite (`rails test`) and sign off on your work when it passes (`gh
 
 You're the CI now. ✌️👀
 
-
 ## How to sign off
 
 ```bash
@@ -41,6 +40,6 @@ gh signoff install
 eval "$(gh signoff completion)"
 ```
 
-
 ## License
+
 The gem is available as open source under the terms of the [MIT License](https://opensource.org/licenses/MIT).
